@@ -1,7 +1,7 @@
 # Reducer Creator Documentation
 
 ## Prerequisites
-* Lodash
+* [Lodash](https://lodash.com/docs/4.17.11)
 
 ### ReducerCreator
 **reducer.creator.ts**
