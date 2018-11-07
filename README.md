@@ -25,7 +25,7 @@ export function createReducer(initialState, ...reducers) {
 }
 ```
 
-### Reducer instance
+### Create reducer instance
 **my-reducer.ts**
 ```
 export const curriedReducer = createReducer(
@@ -41,7 +41,7 @@ export function myReducer
 
 ```...reducerList``` represents the array of accepted nested reducers that are executed inside the main reducer, which is registered at the application level. All nested reducers operate on ```myReducerState```, the same fragment of the application state.
 
-### Registering reducers at application level
+### Register reducers at application level
 **app.module.ts**
 ```
 @NgModule({
